@@ -34,10 +34,10 @@ imgpoints = []  # 2d points in image plane. #Las proyecciones son las equinas de
 
 #Path de imagenes dependiendo la cámara que se desee calibrar
 if camara == 1:
-    path = 'J:/Proc.Imagenes/Imagenes/Taller5/Calibration_Images/Computer_Caro_2'
+    path = 'C:/Users/ASUS-PC/Desktop/Calibration_Images'
     path_file = os.path.join(path, 'Compu_*.jpeg')
 else:
-    path = 'J:/Proc.Imagenes/Imagenes/Taller5/Calibration_Images/Phone_Caro_2'
+    path = 'C:/Users/ASUS-PC/Desktop/Calibration_Images'
     path_file = os.path.join(path, 'Phone_*.jpeg')
 
 images = glob.glob(path_file)   #Lista de imágenes
